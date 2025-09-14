@@ -22,22 +22,28 @@ ApplicationWindow {
     }
     SplitView {
         anchors.fill: parent
+        topPadding: 10
         orientation: Qt.Horizontal
 
         // Левая часть - 2/3 ширины
         Rectangle {
+
             color: "lightgray"
             SplitView.preferredWidth: parent.width * 2 / 3
             SplitView.minimumWidth: 200
             Layout.fillHeight: true
 
             Label {
+                anchors.top: parent.top
+                anchors.topMargin: 10
                 text: "Enter GUID: "
                 anchors.left: parent.left
+                anchors.leftMargin: 10
                 TextField {
                     id: guidInput
                     placeholderText: "Enter GUID here"
                     anchors.left: parent.left
+                    anchors.leftMargin: 5
                     anchors.top: parent.bottom
                     anchors.topMargin: 10
                     width: 300

@@ -1,6 +1,7 @@
 build
 .cache
 .*
+test*
 
 !.gitignore
 !.vscode
