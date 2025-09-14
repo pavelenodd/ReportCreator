@@ -1,0 +1,18 @@
+{
+    "qml-lsp.qmlls": {
+        "settings": {
+            "codeModel": {
+                "linkCodeModel": true,
+                "codeModelFile": "${workspaceFolder}/.qmlls.ini"
+            }
+        }
+    },
+    "qml-lsp.qmllint": {
+        "settings": {
+            "codeModel": {
+                "linkCodeModel": true,
+                "codeModelFile": "${workspaceFolder}/.qmlls.ini"
+            }
+        }
+    }
+}
